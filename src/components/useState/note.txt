@@ -1,0 +1,9 @@
+useState: add some thing to the state and rendering to functional component
+
+in useState hooks we can use multiple data types like number, boolean, string, undefined, null, array, obj etc
+
+use State function return an array with 2 element (current value of state, state setter function )
+
+New state value depends on the previous state value? you can pass a function to the setter function 
+
+When dealing with objects and arrays, always make sure to spread your state variable and then call the setter function

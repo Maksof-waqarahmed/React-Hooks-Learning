@@ -1,0 +1,10 @@
+useEffect: useEffect is a Hook in React that lets you perform side effects in functional components. Side effects can include things like data fetching, subscriptions, manual DOM manipulations, or logging.
+
+Initialization (Mounting):This happens when the component is first rendered (similar to componentDidMount in class components).
+You can perform initial side effects like fetching data or subscribing to events here.
+
+Update (Re-rendering):This occurs whenever the component re-renders due to a state or prop change.
+You can specify dependencies to control when the effect runs. If the dependencies change, the effect will run again.
+
+Unmounting (Cleanup):This happens when the component is removed from the DOM (similar to componentWillUnmount).
+You can perform cleanup here, such as canceling subscriptions or timers to prevent memory leaks.

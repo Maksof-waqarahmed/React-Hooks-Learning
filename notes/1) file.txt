@@ -1,0 +1,8 @@
+What is Hooks: Hooks are a new feature addition in react v 16.8 which allow you to use react features without having to write a class. Hooks don't work inside classes
+
+Roles of Hooks: 
+1) Only call hooks at the top level
+Don't call hooks inside loops, condition, or nested functions
+
+2) only call hooks from react functions
+Call them from within react functional components and not just any regular JS functions
