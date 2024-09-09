@@ -13,6 +13,8 @@ import OneMouse from './components/useEffect/onceMouseEventRender';
 import WillMount from './components/useEffect/willMount';
 import InternalCounter from './components/useEffect/internalCounter';
 import FetchData from './components/useEffect/fetchData';
+import FetchSingleData from './components/useEffect/fetchSingleData';
+import FetchDataButtonClick from './components/useEffect/fetchDataButtonClick';
 
 const App: React.FC = () => {
   return (
@@ -29,7 +31,9 @@ const App: React.FC = () => {
       {/* <OneMouse /> */}
       {/* <WillMount /> */}
       {/* <InternalCounter /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      {/* <FetchSingleData /> */}
+      <FetchDataButtonClick />
 
     </div>
   );
