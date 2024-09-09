@@ -9,6 +9,10 @@ import Array from './components/useState/array';
 //useEffect
 import CounterEffect from './components/useEffect/counter';
 import Conditional from './components/useEffect/conditionalCounter';
+import OneMouse from './components/useEffect/onceMouseEventRender';
+import WillMount from './components/useEffect/willMount';
+import InternalCounter from './components/useEffect/internalCounter';
+import FetchData from './components/useEffect/fetchData';
 
 const App: React.FC = () => {
   return (
@@ -21,7 +25,11 @@ const App: React.FC = () => {
 
       {/* Use Effect */}
       {/* <CounterEffect /> */}
-      <Conditional />
+      {/* <Conditional /> */}
+      {/* <OneMouse /> */}
+      {/* <WillMount /> */}
+      {/* <InternalCounter /> */}
+      <FetchData />
 
     </div>
   );
