@@ -1,0 +1,6 @@
+Context: it provide a way to pass data through the component tree without having to pass props down manually at every level. 
+
+There are three steps to create context:
+
+React.createContext(): create it from where you want to send data and store it in variable
+Provider: The component must be its child means reap the component from where data you want send & provide context value using value attribute
